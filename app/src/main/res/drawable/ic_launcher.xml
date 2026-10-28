@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- 底板 -->
+    <path
+        android:fillColor="#3B5BDB"
+        android:pathData="M0,0h48v48h-48z" />
+
+    <!-- 纸张 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,9h22a4,4 0 0 1 4,4v22a4,4 0 0 1 -4,4h-22a4,4 0 0 1 -4,-4v-22a4,4 0 0 1 4,-4z" />
+
+    <!-- 文字行 -->
+    <path
+        android:fillColor="#3B5BDB"
+        android:pathData="M15,16h18v2.6h-18z" />
+    <path
+        android:fillColor="#A9B6F5"
+        android:pathData="M15,22.2h18v2.6h-18z" />
+    <path
+        android:fillColor="#A9B6F5"
+        android:pathData="M15,28.4h11v2.6h-11z" />
+
+</vector>
